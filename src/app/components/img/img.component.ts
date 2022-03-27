@@ -9,7 +9,7 @@ export class ImgComponent implements OnInit {
   constructor() {}
   @Input() img: string = 'valor inicial';
   @Output() loaded = new EventEmitter<string>();
-  imgDefault = './assets/image/default.png';
+  imgDefault = './assets/images/default.png';
 
   ngOnInit(): void {}
 
