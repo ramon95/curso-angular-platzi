@@ -3,8 +3,13 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'angular';
+  title = 'Curso Angular Platzi';
+  imgParent = '';
+
+  onLoaded(img: String) {
+    console.log('Padre', img);
+  }
 }
