@@ -10,10 +10,6 @@ export class AppComponent {
   imgParent = '';
   showImage = true;
 
-  onLoaded(img: String) {
-    console.log('Padre', img);
-  }
-
   toggleImg() {
     this.showImage = !this.showImage;
   }
